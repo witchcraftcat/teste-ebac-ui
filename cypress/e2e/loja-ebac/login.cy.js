@@ -42,7 +42,7 @@ describe('Funcionalidade: Login', () => { //aqui descrevo qual funcionalidade qu
 
     it.only("Deve fazer o login com sucesso - Fixtures", () =>{  //todos os testes devem ficar dentro de describe!!! Ele concentra todos os testes desta funcionalidade
         cy.fixture("perfil").then( dados => {
-            cy.get("#username").type(dados.usuario, {log: false})
+            cy.get("#username").type(dados.usuario, {log: false}) //log: False é para não mostrar os dados no teste 
             cy.get('#password').type(dados.senha, {log: false})
             cy.get('.woocommerce-form > .button').click()
             cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should("contain", "Olá, duda (não é duda? Sair)")

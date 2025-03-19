@@ -1,0 +1,30 @@
+[
+    {
+        "nomeProduto": "Ariel Roll Sleeve Sweatshirt",
+        "tamanho":"XS",
+        "cor": "Green",
+        "quantidade": 5
+    },
+
+    {
+        "nomeProduto": "Cassia Funnel Sweatshirt",
+        "tamanho":"S",
+        "cor": "Purple",
+        "quantidade": 8
+    },
+
+    {
+        "nomeProduto": "Phoebe Zipper Sweatshirt",
+        "tamanho":"M",
+        "cor": "Gray",
+        "quantidade": 2
+    },
+
+    {
+        "nomeProduto": "Daphne Full-Zip Hoodie",
+        "tamanho":"XL",
+        "cor": "Purple",
+        "quantidade": 10
+    }
+
+]
